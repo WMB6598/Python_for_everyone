@@ -29,5 +29,5 @@ print(counts.items()) #Prints both the keys and values (this is a tuple). Called
 
 #You can use two iteration variables to get both values from a dictionary
 counts = {'chuck' :1, 'fred' : 42, 'jan' : 100}
-for a, b in counts.items() :
+for a, b in counts.items() : # Have to use .items() to do this
     print(a , b)
