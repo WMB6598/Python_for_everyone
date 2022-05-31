@@ -41,3 +41,4 @@ for val, key in lst[:10] :
 #This is a mre advanced way of doing it all in one go
 d = {'a' : 10, 'f': 32, 'c' : 1}
 print( sorted( [(v,k) for k,v in d.items() ] ) )
+#This creates a dynamic list. creates a list using v, k for all items in the dicitonary. 
